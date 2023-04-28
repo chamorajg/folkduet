@@ -1,0 +1,38 @@
+{
+    "arch": "Generator",
+    "batch_size": 4096,
+    "check_dir": "",
+    "clip_grad": 1.0,
+    "dropout": 0.5,
+    "epochs": 20,
+    "exp_dir": "results/generator_init",
+    "folk": true,
+    "init_len": 10,
+    "lr": 0.05,
+    "meta_nfc_cent": 32,
+    "nemb_duration": 64,
+    "nemb_meta": 32,
+    "nemb_pitch": 128,
+    "nembs": [
+        128,
+        64
+    ],
+    "nfc_cent": 128,
+    "nfc_left": 512,
+    "nhid": 256,
+    "nlayers": 2,
+    "num_durations": 10,
+    "num_pitches": 50,
+    "num_tokens": [
+        50,
+        10
+    ],
+    "only_config": false,
+    "pred_nfc": 512,
+    "raw": true,
+    "seed": 1234,
+    "step_at": [
+        10,
+        15
+    ]
+}

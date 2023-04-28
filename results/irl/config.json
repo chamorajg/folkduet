@@ -1,0 +1,42 @@
+{
+    "arch": "Generator",
+    "bach_both": "results/bachHM",
+    "bach_self": "results/bachM",
+    "batch_size": 192,
+    "check_dir": "results/generator_init",
+    "clip_grad": 1.0,
+    "dropout": 0.0,
+    "entropy_beta": 0.05,
+    "epochs": 30,
+    "exp_dir": "results/irl",
+    "folk": true,
+    "gamma": 1.0,
+    "init_len": 10,
+    "inter_alpha": 0.5,
+    "lr": 1e-05,
+    "lr_reward": 0.0001,
+    "meta_nfc_cent": 32,
+    "nemb_duration": 64,
+    "nemb_meta": 32,
+    "nemb_pitch": 128,
+    "nembs": [
+        128,
+        64
+    ],
+    "nfc_cent": 128,
+    "nfc_left": 512,
+    "nhid": 256,
+    "nlayers": 2,
+    "num_durations": 10,
+    "num_pitches": 50,
+    "num_tokens": [
+        50,
+        10
+    ],
+    "only_config": false,
+    "pred_nfc": 512,
+    "raw": true,
+    "reward_dir": "results/style_init",
+    "seed": 1234,
+    "seq_length": 20
+}
